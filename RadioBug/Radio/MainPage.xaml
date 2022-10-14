@@ -9,17 +9,17 @@
         <RadioButton
             Grid.Row="1"
             Grid.Column="1"
-            Content="Without FontSize : aligned with ellipse on Windows" />
+            Content="Without FontSize : ALIGNED with ellipse on Windows" />
 
         <RadioButton
             Grid.Row="2"
             Grid.Column="1"
-            Content="With FontSize : aligned with ellipse on Windows"
+            Content="With FontSize : NOT aligned with ellipse on Windows"
             FontSize="Title" />
 
         <RadioButton Grid.Row="3" Grid.Column="1">
             <RadioButton.Content>
-                <Label FontSize="Title" Text="With FontSize : aligned with ellipse on Windows" />
+                <Label FontSize="Title" Text="With Label : NOT aligned with ellipse on Windows" />
             </RadioButton.Content>
         </RadioButton>
 
